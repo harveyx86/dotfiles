@@ -28,8 +28,10 @@ set tabstop=2           " 2 spaces for tabs
 set shiftwidth=2        " 2 spaces for indentation
 
 " bells
-set noerrorbells        " turn off audio bell
-set visualbell          " but leave on a visual bell
+set noerrorbells        " turn off the audible error bell
+set novisualbell        " turn off the visual bell (screen flash)
+set belloff=all         " disable bells for every Vim event
+set t_vb=               " clear the terminal's visual-bell sequence
 
 " search
 set hlsearch            " highlighted search results
