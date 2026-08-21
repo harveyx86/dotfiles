@@ -1,3 +1,6 @@
+# Copy selected text directly to the clipboard.
+copy-on-select = clipboard
+
 # Tab navigation
 keybind = super+[=previous_tab
 keybind = super+]=next_tab
