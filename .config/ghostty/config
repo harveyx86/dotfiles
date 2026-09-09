@@ -4,3 +4,6 @@ copy-on-select = clipboard
 # Tab navigation
 keybind = super+[=previous_tab
 keybind = super+]=next_tab
+
+# Keep SSH on xterm-256color so nested SSH hosts need no Ghostty terminfo.
+shell-integration-features = ssh-env,no-ssh-terminfo
